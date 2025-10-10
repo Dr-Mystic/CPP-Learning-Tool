@@ -32,7 +32,7 @@ void stringCharacterIdentification()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -189,7 +189,7 @@ void stringCaseConversion()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -279,7 +279,7 @@ void ascii()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -363,7 +363,7 @@ void checkCharacter()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -487,7 +487,7 @@ void evenOdd()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -573,7 +573,7 @@ void leap()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -691,7 +691,7 @@ void largestSmallest()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -806,7 +806,7 @@ void positiveNegative()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -900,7 +900,7 @@ void maxMin()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1051,7 +1051,7 @@ void secondMax()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1168,7 +1168,7 @@ void reverse()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1293,7 +1293,7 @@ void split()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1431,7 +1431,7 @@ void autoGrow()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1458,7 +1458,7 @@ int main()
     int length;
     cout << "Enter the length of the original array: ";
     cin >> length;
-    system("clear");
+    system("cls");
 
     int array[length];
 
@@ -1467,7 +1467,7 @@ int main()
     {
         cout << "Enter the value of element " << counter + 1 << ": ";
         cin >> array[counter];
-        system("clear");
+        system("cls");
     }
 
     while (true)
@@ -1476,14 +1476,14 @@ int main()
         char option;
         cout << "Do you want to grow the array? (Y/N): ";
         cin >> option;
-        system("clear");
+        system("cls");
 
         if (option == 'Y' || option == 'y')
         {
             int factor;
             cout << "Enter the growth factor: ";
             cin >> factor;
-            system("clear");
+            system("cls");
 
             // Input validation
             if (factor <= 0)
@@ -1535,7 +1535,7 @@ int main()
             int length;
             cout << "Enter the length of the original array: ";
             cin >> length;
-            system("clear");
+            system("cls");
 
             vector<int> array(length);
 
@@ -1544,7 +1544,7 @@ int main()
             {
                 cout << "Enter the value of element " << counter + 1 << ": ";
                 cin >> array[counter];
-                system("clear");
+                system("cls");
             }
 
             while (true)
@@ -1553,14 +1553,14 @@ int main()
                 char option;
                 cout << "Do you want to grow the array? (Y/N): ";
                 cin >> option;
-                system("clear");
+                system("cls");
 
                 if (option == 'Y' || option == 'y')
                 {
                     int factor;
                     cout << "Enter the growth factor: ";
                     cin >> factor;
-                    system("clear");
+                    system("cls");
 
                     // Input validation
                     if (factor <= 0)
@@ -1637,7 +1637,7 @@ void traversal()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1663,11 +1663,11 @@ int main()
 
     cout << "Enter the number of rows: ";
     cin >> rows;
-    system("clear");
+    system("cls");
 
     cout << "Enter the number of columns: ";
     cin >> columns;
-    system("clear");
+    system("cls");
 
     // Declare 2D Array
     int array[rows][columns];
@@ -1680,7 +1680,7 @@ int main()
         {
             cout << "Enter element at position [" << i << "][" << j << "]: ";
             cin >> array[i][j];
-            system("clear");
+            system("cls");
         }
     }
 
@@ -1734,11 +1734,11 @@ int main()
 
             cout << "Enter the number of rows: ";
             cin >> rows;
-            system("clear");
+            system("cls");
 
             cout << "Enter the number of columns: ";
             cin >> columns;
-            system("clear");
+            system("cls");
 
             // Declare 2D Array
             int** array = new int* [rows];
@@ -1755,7 +1755,7 @@ int main()
                 {
                     cout << "Enter element at position [" << i << "][" << j << "]: ";
                     cin >> array[i][j];
-                    system("clear");
+                    system("cls");
                 }
             }
 
@@ -1832,7 +1832,7 @@ void transpose()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -1996,7 +1996,7 @@ void basicFile()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -2099,7 +2099,7 @@ void retrieve()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -2203,7 +2203,7 @@ void readWrite()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -2320,7 +2320,7 @@ void caseConversion()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();
@@ -2440,7 +2440,7 @@ void encryptDecrypt()
         cout << "2. Source Code. \n";
         cout << "3. Program Execution. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 3 || cin.fail())
         {
             fail();

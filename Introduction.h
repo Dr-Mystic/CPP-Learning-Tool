@@ -14,7 +14,7 @@ void variable()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -24,7 +24,7 @@ void variable()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << "Variables: \nVariables are named storage locations in memory that hold values of a specific data type. \nThey allow you to store and manipulate data during program execution. \nBefore using a variable, you need to declare it, specifying its name and data type.\n";
             cout << "\nLiterals: \nLiterals are fixed values that are directly written in your code.\nThey represent specific data types, such as integers, floating - point numbers, characters, and strings.\n";
             cout << "\nConstants: \nConstants are variables whose values cannot be changed once assigned.\nThey provide a way to define values that remain constant throughout the program.\nIn C++, you can define constants using the const keyword or the preprocessor #define directive.\n";
@@ -34,7 +34,7 @@ void variable()
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -85,7 +85,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -114,7 +114,7 @@ void dataTypes()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -124,7 +124,7 @@ void dataTypes()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, data types are declarations for variables. This determines the type and size of data associated with variables. For example,
 int age = 13;
 Here, age is a variable of type int. Meaning, the variable can only store integers of either 2 or 4 bytes.
@@ -201,7 +201,7 @@ For example: arrays, pointers, function types, structures, etc.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -243,7 +243,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -272,7 +272,7 @@ void basicIO()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -282,7 +282,7 @@ void basicIO()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(
 --> C++ Output:
 In C++, cout sends formatted output to standard output devices, such as the screen. We use the cout object along with the << operator for displaying output.
@@ -389,7 +389,7 @@ Number: 23
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(
 #include <iostream>
 using namespace std;
@@ -431,7 +431,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -460,7 +460,7 @@ void typeConversion()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -470,7 +470,7 @@ void typeConversion()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(C++ allows us to convert data of one type to that of another. This is known as type conversion.
 
 There are two types of type conversion in C++.
@@ -639,7 +639,7 @@ They are:
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -668,7 +668,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -697,7 +697,7 @@ void operators()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -707,7 +707,7 @@ void operators()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(Operators are symbols that perform operations on variables and values.
 Operators in C++ can be classified into 6 types:
 
@@ -1034,7 +1034,7 @@ Operator	                 Description	                                          
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -1070,7 +1070,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -1099,7 +1099,7 @@ void comments()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -1109,7 +1109,7 @@ void comments()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(C++ comments are hints that a programmer can add to make their code easier to read and understand. They are completely ignored by C++ compilers.
 There are two ways to add comments to code:
 1. // ~ Single Line Comments
@@ -1176,7 +1176,7 @@ As a general rule of thumb, use comments to explain 'Why' you did something rath
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -1201,7 +1201,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -1230,7 +1230,7 @@ void fileHandling()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -1240,7 +1240,7 @@ void fileHandling()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(File handling in C++ involves performing operations on files, such as creating, reading, writing, and deleting data from files. 
 C++ provides several classes and functions that make file handling convenient and efficient. Here is an overview of the theory behind file handling in C++:
 
@@ -1291,7 +1291,7 @@ By understanding the concepts mentioned above, you can effectively read from and
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Note: Don't forget to include 'fstream' header .
 
 // Opening a file for writing
@@ -1360,7 +1360,7 @@ else
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

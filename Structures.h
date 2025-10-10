@@ -14,7 +14,7 @@ void structure()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -24,7 +24,7 @@ void structure()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, a structure is a user-defined data type that allows you to combine different types of data into a single unit. 
 It is similar to a class but with default public access to its members.
 A structure declaration defines a new type, and its members can be of any built-in or user-defined type. 
@@ -67,7 +67,7 @@ Note: Structures are often used to represent a collection of related data, such 
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example - Employee Information:
 
 #include <iostream>
@@ -113,7 +113,7 @@ Note: Structures can be used to create custom data types to store related data a
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -142,7 +142,7 @@ void structureFunction()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -152,7 +152,7 @@ void structureFunction()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, structures can be used as function parameters and return types, allowing you to pass and manipulate complex data structures easily.
 
 --> Passing Structure as a Function Parameter:
@@ -267,7 +267,7 @@ Note: Structures can be useful for representing complex data structures and can 
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example - Rectangle Area Calculation:
 
 #include <iostream>
@@ -306,7 +306,7 @@ The `main()` function declares a structure variable `rect` and initializes its m
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -335,7 +335,7 @@ void pointersStructure()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -345,7 +345,7 @@ void pointersStructure()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, you can use pointers to work with structures. Pointers allow you to dynamically allocate memory for structures, access their members, and manipulate the structure data efficiently.
 
 --> Creating a Pointer to a Structure:
@@ -424,7 +424,7 @@ Note: When using pointers to structures, ensure that the structure is allocated 
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example - Employee Details using Pointers to Structures:
 
 #include <iostream>
@@ -482,7 +482,7 @@ Finally, the memory is deallocated using the `delete` operator.
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -511,7 +511,7 @@ void enumeration()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -521,7 +521,7 @@ void enumeration()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, an enumeration is a user-defined type that consists of a set of named constants. Enumerations provide a way to define a group of related constants that can be used throughout your program.
 
 Enumerations are useful for improving code readability, making it easier to understand and maintain. By using meaningful names for the constants, you can enhance the clarity of your code.
@@ -591,7 +591,7 @@ Enumerations can be used as a convenient way to define a set of related constant
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example - Colors using Enumerations:
 
 #include <iostream>
@@ -689,7 +689,7 @@ Enumerations provide a convenient way to work with a set of related constants, s
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

@@ -28,12 +28,12 @@ void getFeedback()
 	string name;
 	cin.ignore();
 	getline(cin, name);
-	system("clear");
+	system("cls");
 
 	int rating;
 	cout << "Please provide your rating (1 to 5 stars): ";
 	cin >> rating;
-	system("clear");
+	system("cls");
 	while (rating < 1 || rating > 5) 
 	{
 		cout << "Invalid rating. Please enter a number from 1 to 5: ";
@@ -116,7 +116,7 @@ int main()
 		cout << "\nPress 0 to exit.\n";
 		cin >> generalOption;
 		cout << endl;
-		system("clear");
+		system("cls");
 		if (generalOption < 0 || generalOption > 9 || cin.fail())
 		{
 			fail();
@@ -143,7 +143,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 7 || cin.fail())
 				{
 					fail();
@@ -216,7 +216,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 8 || cin.fail())
 				{
 					fail();
@@ -294,7 +294,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 7 || cin.fail())
 				{
 					fail();
@@ -363,7 +363,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 4 || cin.fail())
 				{
 					fail();
@@ -414,7 +414,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 4 || cin.fail())
 				{
 					fail();
@@ -465,7 +465,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 4 || cin.fail())
 				{
 					fail();
@@ -516,7 +516,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 4 || cin.fail())
 				{
 					fail();
@@ -570,7 +570,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 7 || cin.fail())
 				{
 					fail();
@@ -640,7 +640,7 @@ int main()
 				cout << "\nPress 0 to exit.\n";
 				cin >> menuOption;
 				cout << endl;
-				system("clear");
+				system("cls");
 				if (menuOption < 0 || menuOption > 5 || cin.fail())
 				{
 					fail();
@@ -667,7 +667,7 @@ int main()
 					cout << "6. Check Positive and Negative Number. \n";
 					cout << "\nPress 0 to exit. \n";
 					cin >> option;
-					system("clear");
+					system("cls");
 					if (option < 0 || option > 6 || cin.fail())
 					{
 						fail();
@@ -717,7 +717,7 @@ int main()
 					cout << "\nPress 0 to exit. \n";
 					int option;
 					cin >> option;
-					system("clear");
+					system("cls");
 					if (option < 0 || option > 6 || cin.fail())
 					{
 						fail();
@@ -761,7 +761,7 @@ int main()
 					cout << "\nPress 0 to exit. \n";
 					int option;
 					cin >> option;
-					system("clear");
+					system("cls");
 					if (option < 0 || option > 2 || cin.fail())
 					{
 						fail();
@@ -794,7 +794,7 @@ int main()
 					cout << "\nPress 0 to exit. \n";
 					int option;
 					cin >> option;
-					system("clear");
+					system("cls");
 					if (option < 0 || option > 2 || cin.fail())
 					{
 						fail();
@@ -830,7 +830,7 @@ int main()
 					cout << "\nPress 0 to exit. \n";
 					int option;
 					cin >> option;
-					system("clear");
+					system("cls");
 					if (option < 0 || option > 5 || cin.fail())
 					{
 						fail();

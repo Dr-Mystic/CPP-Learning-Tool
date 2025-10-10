@@ -13,7 +13,7 @@ void objectsAndClass()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -150,7 +150,7 @@ Classes and objects provide a way to model real-world entities or concepts and a
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -178,7 +178,7 @@ void constructors()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -308,7 +308,7 @@ Constructors allow you to provide different ways to create objects and ensure th
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -336,7 +336,7 @@ void objectsAndFunction()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -560,7 +560,7 @@ By passing objects by reference and returning objects from functions, you can av
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -588,7 +588,7 @@ void operatorOverloading()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -715,7 +715,7 @@ Similarly, when you use the `<<` operator to output a `Complex` object, the over
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

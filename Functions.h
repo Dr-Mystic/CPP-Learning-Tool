@@ -14,7 +14,7 @@ void functions()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -24,7 +24,7 @@ void functions()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In programming, a function is a named block of code that performs a specific task. It allows you to break down a program into smaller, manageable pieces, making the code more modular, reusable, and easier to maintain.
 
 --> Components of Functions:
@@ -81,7 +81,7 @@ Note: Functions can have different return types (including `void` for no return 
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -117,7 +117,7 @@ int sum(int a, int b)
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -146,7 +146,7 @@ void functionTypes()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -156,7 +156,7 @@ void functionTypes()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, functions can be categorized into various types based on their behavior and usage. 
 Here are some commonly used function types:
 
@@ -190,7 +190,7 @@ It's important to choose the appropriate function type based on the requirements
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -256,7 +256,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -285,7 +285,7 @@ void functionOverloading()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -295,7 +295,7 @@ void functionOverloading()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(Function overloading is a feature in C++ that allows you to define multiple functions with the same name but different parameter lists. The compiler resolves the correct function to call based on the arguments provided.
 
 --> Key Points about Function Overloading:
@@ -338,7 +338,7 @@ In the example above, we have two functions named `add()`. One takes two `int` p
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -375,7 +375,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -404,7 +404,7 @@ void defaultArgument()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -414,7 +414,7 @@ void defaultArgument()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(Default arguments in C++ allow you to specify a default value for a function parameter. When a function is called without providing an argument for a parameter with a default value, the default value is used.
 
 --> Key Points about Default Arguments:
@@ -446,7 +446,7 @@ In the example above, we have a function named `greet()` that takes two paramete
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -476,7 +476,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -505,7 +505,7 @@ void storageClass()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -515,7 +515,7 @@ void storageClass()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, storage classes define the scope (visibility) and lifetime of variables or functions within a program. 
 C++ provides four storage classes:
 
@@ -573,7 +573,7 @@ The `staticVar` retains its value and is incremented in each function call.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -619,7 +619,7 @@ Value of d: 40
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -648,7 +648,7 @@ void recursion()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -658,7 +658,7 @@ void recursion()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, more manageable subproblems. 
 In a recursive function, the function repeatedly calls itself until it reaches a base case that doesn't require further recursion.
 
@@ -715,7 +715,7 @@ It's important to define base cases and ensure they are reachable to avoid infin
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -760,7 +760,7 @@ Note: Recursion can sometimes be less efficient than iterative approaches due to
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -789,7 +789,7 @@ void returnReference()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -799,7 +799,7 @@ void returnReference()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, it is possible to return a reference from a function. When a function returns a reference, it means it returns a reference to a memory location rather than a copy of a value. 
 Returning references can be useful in certain scenarios to avoid unnecessary copying and enable modification of the original value.
 
@@ -844,7 +844,7 @@ Note: When returning a reference, it is crucial to ensure that the referenced ob
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -877,7 +877,7 @@ Caution: Returning references to dynamically allocated memory can be risky, as i
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

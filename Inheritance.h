@@ -13,7 +13,7 @@ void inheritance()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -142,7 +142,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -170,7 +170,7 @@ void inheritanceAccessControl()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -304,7 +304,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -332,7 +332,7 @@ void functionOverriding()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -427,7 +427,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -455,7 +455,7 @@ void inheritanceTypes()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -712,7 +712,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -740,7 +740,7 @@ void friendFunction()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -840,7 +840,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -868,7 +868,7 @@ void virtualFunction()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -969,7 +969,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -997,7 +997,7 @@ void templates()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -1139,7 +1139,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

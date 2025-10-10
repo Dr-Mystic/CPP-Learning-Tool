@@ -14,7 +14,7 @@ void arrays()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -24,7 +24,7 @@ void arrays()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, an array is a collection of elements of the same type, stored in contiguous memory locations. Arrays provide a way to store multiple values under a single variable name.
 
 --> Array Syntax:
@@ -76,7 +76,7 @@ Note: It is important to ensure that the array indices are within the valid rang
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -110,7 +110,7 @@ Note: When working with arrays, it is important to handle the array size and ind
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -139,7 +139,7 @@ void multidimensionalArrays()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -149,7 +149,7 @@ void multidimensionalArrays()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, a multidimensional array is an array that contains arrays as its elements. It allows you to store and manipulate data in multiple dimensions, such as rows and columns.
 
 --> Syntax:
@@ -193,7 +193,7 @@ Note: It is important to ensure that the array indices are within the valid rang
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -231,7 +231,7 @@ Note: When working with multidimensional arrays, it is important to handle the a
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -260,7 +260,7 @@ void functionArray()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -270,7 +270,7 @@ void functionArray()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, we can pass arrays as arguments to functions and return arrays from functions. This allows us to work with arrays more conveniently and perform operations on them within functions.
 
 --> Passing Arrays as Function Parameters:
@@ -427,7 +427,7 @@ Returning arrays from functions and passing arrays as function parameters can be
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -495,7 +495,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -524,7 +524,7 @@ void strings()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -534,7 +534,7 @@ void strings()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In C++, a string is a sequence of characters stored in a character array. C++ provides a rich set of functions and features to work with strings.
 
 --> C++ String Library:
@@ -596,7 +596,7 @@ Note: Remember to include the `<string>` library to work with strings in C++.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example - Username Validation:
 
 #include <iostream>
@@ -651,7 +651,7 @@ Note: This is a simplified example for demonstration purposes. In practice, user
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

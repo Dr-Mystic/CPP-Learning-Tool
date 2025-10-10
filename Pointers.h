@@ -13,7 +13,7 @@ void pointers()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -118,7 +118,7 @@ Note: The memory addresses displayed may vary on different systems.
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -146,7 +146,7 @@ void pointersAndArrays()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -260,7 +260,7 @@ The `main` function demonstrates three ways of accessing the elements of the arr
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -288,7 +288,7 @@ void pointersAndFunctions()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -447,7 +447,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -475,7 +475,7 @@ void memoryManagement()
         cout << "1. Theory. \n";
         cout << "2. Source Code. \n";
         cin >> option;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -587,7 +587,7 @@ int main()
         {
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {

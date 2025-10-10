@@ -14,7 +14,7 @@ void ifElse()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -24,7 +24,7 @@ void ifElse()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(In computer programming, we use the if...else statement to run one block of code under certain conditions and another block of code under different conditions.
 
 For example, assigning grades (A, B, C) based on marks obtained by a student.
@@ -369,7 +369,7 @@ Note: Although it's not necessary to use { } if the body of if...else has only o
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(// Example: if statement
 #include <iostream>
 using namespace std;
@@ -488,7 +488,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -517,7 +517,7 @@ void forLoop()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -527,7 +527,7 @@ void forLoop()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(A for loop is a control flow statement that allows code to be executed repeatedly based on a specified condition. It consists of three parts: initialization, condition, and increment/decrement.
 
 --> Syntax of For Loop
@@ -579,7 +579,7 @@ beforehand, you can use a while loop or do-while loop instead.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -601,7 +601,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -630,7 +630,7 @@ void whileLoop()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -640,7 +640,7 @@ void whileLoop()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(The while loop is a control flow statement that executes a block of code as long as a specified condition is true.
 
 --> Syntax of the While Loop:
@@ -688,7 +688,7 @@ You can modify the condition and the code inside the loop based on your requirem
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -713,7 +713,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -742,7 +742,7 @@ void doWhileLoop()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -752,7 +752,7 @@ void doWhileLoop()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(A do-while loop is a control flow statement that executes a block of code repeatedly until a specified condition becomes false. It is similar to the while loop, but the condition is checked at the end of the loop.
 
 --> Syntax of Do-While Loop
@@ -805,7 +805,7 @@ Note: The do-while loop is useful when you want to ensure that the code block is
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -830,7 +830,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -859,7 +859,7 @@ void breakStatement()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -869,7 +869,7 @@ void breakStatement()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(The break statement is a control flow statement used to terminate the execution of a loop or switch statement.
 
 --> In a loop:
@@ -952,7 +952,7 @@ You can modify the conditions and code blocks to suit your specific needs.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example 1: Using break statement in a loop:
 
 #include <iostream>
@@ -1009,7 +1009,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -1038,7 +1038,7 @@ void continueStatement()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -1048,7 +1048,7 @@ void continueStatement()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(The continue statement is a control flow statement used to skip the remaining code within a loop iteration and move to the next iteration.
 
 --> In a loop:
@@ -1090,7 +1090,7 @@ You can modify the conditions and code blocks to suit your specific needs.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example 1: Using continue statement in a loop:
 
 #include <iostream>
@@ -1118,7 +1118,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -1147,7 +1147,7 @@ void switchStatement()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -1157,7 +1157,7 @@ void switchStatement()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(The switch statement is a control flow statement that allows a variable to be tested for equality against a list of values. It provides an alternative to using multiple `if-else` statements.
 
 --> Syntax of the Switch Statement:
@@ -1236,7 +1236,7 @@ If the entered day number doesn't match any case, the default case is executed.
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(Example 1: Using switch statement:
 
 #include <iostream>
@@ -1287,7 +1287,7 @@ int main()
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
@@ -1316,7 +1316,7 @@ void gotoStatement()
         cout << "2. Source Code. \n";
         cin >> option;
         cout << endl;
-        system("clear");
+        system("cls");
         if (option < 1 || option > 2 || cin.fail())
         {
             fail();
@@ -1326,7 +1326,7 @@ void gotoStatement()
         // Theory
         if (option == 1)
         {
-            system("clear");
+            system("cls");
             cout << R"(The goto statement is a control flow statement that allows transferring the control to a labeled statement within the same function. It is often considered a controversial feature and should be used judiciously to avoid code complexity and maintainability issues.
 
 --> Syntax of the Goto Statement:
@@ -1370,7 +1370,7 @@ It is generally recommended to use structured control flow constructs like if-el
         // Source Code
         if (option == 2)
         {
-            system("clear");
+            system("cls");
             cout << R"(#include <iostream>
 using namespace std;
 
@@ -1399,7 +1399,7 @@ error:
             cout << "\nDo you want to continue? (Y/N)";
             cin >> exit;
             cout << endl;
-            system("clear");
+            system("cls");
 
             if (exit == 'Y' || exit == 'y')
             {
